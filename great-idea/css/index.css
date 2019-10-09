@@ -55,6 +55,7 @@ table {
 html, body {
     height: 100%;
     font-family: 'Titillium Web', sans-serif;
+    background-color: black;
 }
 
 h1, h2, h3, h4, h5 {
@@ -63,4 +64,141 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
+
+.container {
+	width: 1000px;
+	height: 1460px;
+	margin: auto;
+	background-color: white;
+}
+
+.container h4 {
+	font-weight: bold;
+}
+
+header {
+	display: flex;
+	padding: 30px 0px;
+}
+
+header nav {
+	display: flex;
+	width: 740px;
+	justify-content: space-evenly;
+	align-items: center;
+
+}
+
+header nav a {
+    color: #A9A9A9;
+    font-weight: bold;
+	font-size: 14px;
+}
+
+.cta {
+	display: flex;
+	margin: 40px 66px;
+	text-align: center;
+	align-items: center;
+}
+
+.cta .cta-text {
+	margin: auto;
+}
+
+.cta .cta-text h1 {
+	font-size: 75px;
+}
+
+.container .cta  img{
+	vertical-align: top;
+}
+
+.container .cta .cta-text button {
+	border: 1.2px solid black;
+    background-color: white;
+    width: 160px;
+    height: 35px;
+    font-weight: bold;
+}
+
+.main-content {
+	margin: 0px 56px;
+}
+
+.main-content .top-content {
+	display: flex;
+	margin: 40px 0px;
+	justify-content: space-between;
+}
+
+.middle-img {
+	vertical-align: middle;
+}
+
+.main-content .bottom-content {
+	display: flex;
+	margin: 40px 0px;
+	justify-content: space-between;
+}
+
+.main-content .bottom-content .text-content {
+	width: 33%;
+    display: inline-block;
+}
+
+
+.contact {
+	margin: 34px 56px;
+}
+
+.contact p {
+	font-size: 0.9em;
+    font-weight: bold;
+}
+
+.contact .cell-contact
+{
+	line-height: 3;
+}
+
+hr {
+	width: 880px;
+	margin-top: 50px;
+	border-top: 1.2px solid;
+}
+
+footer p {
+	padding: 25px;
+	font-size: 0.9em;
+    font-weight: bold;
+    text-align: center;
+}
+
+/*  Services Page Styling */
+
+.services-cta {
+	display: flex;
+	margin: 0px 66px 20px 66px;
+	text-align: center;
+	align-items: center;
+}
+
+.main-content .services h4 {
+	font-size: 25px;
+}
+
+.main-content .services-top-content {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.main-content .services-top-content .text-content {
+	background-color: #F3F3F3;
+	margin: 12px 0px;
+    padding: 20px;
+    width: 410px;
+	border: 1px solid black;
+}
