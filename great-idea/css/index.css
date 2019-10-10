@@ -68,7 +68,7 @@ h1, h2, h3, h4, h5 {
 
 .container {
 	width: 1000px;
-	height: 1793px;
+	height: 1749px;
 	margin: auto;
 	background-color: white;
 }
@@ -165,7 +165,8 @@ header nav a {
 
 hr {
 	width: 880px;
-	margin: 37px 0px;
+	margin-bottom: 37px;
+	/* margin: 37px 0px; */
 	border-top: 1.2px solid;
 }
 
@@ -186,7 +187,8 @@ footer p {
 }
 
 .main-content .services {
-	padding-left: 5px
+	padding-left: 5px;
+	margin-bottom: 37px;
 }
 
 .main-content .services h4 {
@@ -200,7 +202,7 @@ footer p {
 }
 
 .main-content .services-top-content .text-content {
-	margin: 0px 0px 40px 0px;
+	margin-bottom: 37px;
     padding: 20px;
     width: 410px;
 	border: 1px solid black;
@@ -224,7 +226,7 @@ footer p {
 
 .main-content .services-bottom-content {
 	display: flex;
-	margin-bottom: 58px;
+	margin: 37px 0px 58px 0px;
 }
 
 .main-content .services-bottom-content .text-content {
