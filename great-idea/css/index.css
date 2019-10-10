@@ -68,7 +68,7 @@ h1, h2, h3, h4, h5 {
 
 .container {
 	width: 1000px;
-	height: 1460px;
+	height: 1793px;
 	margin: auto;
 	background-color: white;
 }
@@ -165,7 +165,7 @@ header nav a {
 
 hr {
 	width: 880px;
-	margin-top: 50px;
+	margin: 37px 0px;
 	border-top: 1.2px solid;
 }
 
@@ -180,9 +180,13 @@ footer p {
 
 .services-cta {
 	display: flex;
-	margin: 0px 66px 20px 66px;
+	margin: 0px 66px 35px 66px;
 	text-align: center;
 	align-items: center;
+}
+
+.main-content .services {
+	padding-left: 5px
 }
 
 .main-content .services h4 {
@@ -196,9 +200,39 @@ footer p {
 }
 
 .main-content .services-top-content .text-content {
-	background-color: #F3F3F3;
-	margin: 12px 0px;
+	margin: 0px 0px 40px 0px;
     padding: 20px;
     width: 410px;
 	border: 1px solid black;
+	background-color: #F3F3F3;
 }
+
+.main-content .services-top-content .text-content button {
+	margin-top: 20px;
+	width: 143px;
+    height: 35px;
+	background-color: #FFFFFF;
+	border: solid 1px #7A797A;
+	border-radius: 7px;
+}
+
+.main-content hr:last-child {
+	width: 200px;
+    margin: 37px 0px;
+    border-top: 1.2px solid;
+}
+
+.main-content .services-bottom-content {
+	display: flex;
+	margin-bottom: 58px;
+}
+
+.main-content .services-bottom-content .text-content {
+	margin-right: 59px;
+    width: 410px;
+}
+
+.main-content .services-bottom-content .text-content ul {
+	margin: 20px 0px 0px 20px;
+	list-style-type: square;
+} 
